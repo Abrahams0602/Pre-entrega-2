@@ -23,6 +23,14 @@ header a img{
     height:90px ;
     object-fit: contain;
 }
+
+header i{
+    color: aliceblue;
+    width: 1px;
+}
+nav #toggle, nav label{
+    display: none;
+}
     
 
 footer{
@@ -797,6 +805,22 @@ body{
 
 
     @media(max-width:768px){
+        header i{
+            color: aliceblue;
+        }
+        nav .menu{
+            width: 100%;
+            overflow: hidden;
+            height: 0;
+        }
+        nav label{
+            display: inline-flex;
+            cursor: pointer;
+        }
+        nav #toggle:checked ~ .menu{
+            height: 100%;
+        }
+
     .barraBusqueda li a{
         display: flex;
         justify-content: center;
@@ -931,6 +955,21 @@ body{
     }
 
     @media(max-width:425px){
+        header i{
+            color: aliceblue;
+        }
+        nav .menu{
+            width: 100%;
+            overflow: hidden;
+            height: 0;
+        }
+        nav label{
+            display: inline-flex;
+            cursor: pointer;
+        }
+        nav #toggle:checked ~ .menu{
+            height: 100%;
+        }
         .sectionTitulo{
             color: rgb(233, 237, 240);
             font-size: 20px;
@@ -1125,9 +1164,24 @@ body{
     
 
     @media(max-width:375px){
+        header i{
+            color: aliceblue;
+        }
+        nav .menu{
+            width: 100%;
+            overflow: hidden;
+            height: 0;
+        }
+        nav label{
+            display: inline-flex;
+            cursor: pointer;
+        }
+        nav #toggle:checked ~ .menu{
+            height: 100%;
+        }
     .sectionTitulo{
         color: rgb(233, 237, 240);
-        font-size: 20px;
+        font-size: 14px;
         -webkit-text-stroke: 1px  rgb(255, 101, 0);
         background-color: black;
         font-family: "Passion One", serif
@@ -1277,6 +1331,10 @@ body{
         margin-top: 30px;
         box-shadow:  4px 4px 4px 5px black;
     }
+    .imagenBackboard img{
+        width: 600px;
+        object-fit: contain;
+    }
 
     .sectionSubtitulo h2{
         justify-content: center;
@@ -1299,8 +1357,8 @@ body{
         flex-direction: column;
         height: 150px;
         width: 300px;
-        margin-top: 20px;
-        margin-bottom: 20px;;
+        margin-top: 40px;
+        margin-bottom: 40px;;
     }
 
     header nav{
@@ -1313,8 +1371,27 @@ body{
         height: 0px;
         width: 0px;
     }
+    footer{
+        margin-top: 80px;
+        width: 600px;;
+    }
 }
     @media(max-width:320px){
+        header i{
+            color: aliceblue;
+        }
+        nav .menu{
+            width: 100%;
+            overflow: hidden;
+            height: 0;
+        }
+        nav label{
+            display: inline-flex;
+            cursor: pointer;
+        }
+        nav #toggle:checked ~ .menu{
+            height: 50%;
+        }
     .sectionTitulo{
         color: rgb(233, 237, 240);
         font-size: 20px;
@@ -1353,9 +1430,11 @@ body{
     }
     .barraBusqueda li a{
         display: flex;
+        flex-direction: row;
         justify-content: center;
+        align-items: center;
         margin-left: 1px;
-        margin-bottom: 5px;
+        margin-top: 1px;
         font-size: 12px;
         overflow: hidden;
     }
@@ -1477,12 +1556,17 @@ body{
         margin-top: 30px;
         box-shadow:  4px 4px 4px 5px black;
     }
+    .imagenBackboard img{
+        width: 600px;;
+        object-fit: contain;
+    }
 
     .sectionSubtitulo h2{
         justify-content: center;
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    
     .sectionSubtitulo p{
         display: flex;
         justify-content: center;
@@ -1500,18 +1584,16 @@ body{
         height: 150px;
         width: 250px;
         margin-top: 40px;
-        margin-bottom: 20px;;
+        margin-bottom: 40px;;
     }
-
     header nav{
         width: 2100px;
         height: 90px;
         background-color: black;
     }
-    
-    header a img{
-        height: 0px;
-        width: 0px;
+    footer{
+        margin-top: 200px;
+        width: 600px;;
     }
-}
 
+    }
