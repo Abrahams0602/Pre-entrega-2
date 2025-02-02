@@ -955,6 +955,10 @@ body{
     }
 
     @media(max-width:425px){
+        header{
+            display: flex;
+            width: 600px;
+        }
         header i{
             color: aliceblue;
         }
@@ -1009,6 +1013,7 @@ body{
         .barraBusqueda li a{
             display: flex;
             justify-content: center;
+            align-items: center;
             margin-left: 1px;
             margin-bottom: 5px;
             font-size: 12px;
@@ -1122,6 +1127,10 @@ body{
             margin-top: 30px;
             box-shadow:  4px 4px 4px 5px black;
         }
+        .imagenBackboard img{
+            width: 600px;
+            object-fit: contain;
+        }
     
         .sectionSubtitulo h2{
             justify-content: center;
@@ -1150,16 +1159,7 @@ body{
             flex-direction: column;
         }
     
-        header nav{
-            width: 2100px;
-            height: 90px;
-            background-color: black;
-        }
-        
-        header a img{
-            height: 0px;
-            width: 0px;
-        }
+
     }
     
 
@@ -1220,7 +1220,7 @@ body{
         justify-content: center;
         margin-left: 1px;
         margin-bottom: 5px;
-        font-size: 12px;
+        font-size: 20px;
         overflow: hidden;
     }
     .barraBusquedaJugadores li a{
@@ -1361,16 +1361,6 @@ body{
         margin-bottom: 40px;;
     }
 
-    header nav{
-        width: 2100px;
-        height: 90px;
-        background-color: black;
-    }
-    
-    header a img{
-        height: 0px;
-        width: 0px;
-    }
     footer{
         margin-top: 80px;
         width: 600px;;
@@ -1430,13 +1420,13 @@ body{
     }
     .barraBusqueda li a{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 1px;
-        margin-top: 1px;
-        font-size: 12px;
+        gap: .125rem;
+        font-size: 10px;
         overflow: hidden;
+        
     }
     .barraBusquedaJugadores li a{
         display: flex;
@@ -1586,14 +1576,9 @@ body{
         margin-top: 40px;
         margin-bottom: 40px;;
     }
-    header nav{
-        width: 2100px;
-        height: 90px;
-        background-color: black;
-    }
     footer{
         margin-top: 200px;
-        width: 600px;;
+        width: 600px;
     }
 
     }
