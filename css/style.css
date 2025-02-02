@@ -962,6 +962,14 @@ body{
         header i{
             color: aliceblue;
         }
+        header a{
+            width: 0px;
+            height: 0px;
+        }
+        header a img{
+            width: 0px;
+            height: 0px;
+        }
         nav .menu{
             width: 100%;
             overflow: hidden;
@@ -1010,21 +1018,24 @@ body{
             -webkit-text-stroke: 1px  rgb(255, 101, 0);
             font-family: "Passion One", serif;
         }
+        .barraBusqueda{
+            width: 600px;
+        }
         .barraBusqueda li a{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            width: 60px;
+            gap: 5px;
             margin-left: 1px;
-            margin-bottom: 5px;
-            font-size: 12px;
-            overflow: hidden;
+            font-size: 10px;
+            overflow: hidden;  
+        }
+        .barraBusquedaJugadores{
+            width: 600px;
         }
         .barraBusquedaJugadores li a{
-            display: flex;
-            justify-content: center;
+            width: 49px;
+            gap: 9px;
             margin-left: 1px;
-            margin-bottom: 5px;
-            font-size: 12px;
+            font-size: 10px;
             overflow: hidden;
         }
             .buscarJugadores{
@@ -1051,14 +1062,16 @@ body{
             }
     
             
-        .barraBusquedaEquipos li a{
-            display: flex;
-            justify-content: center;
-            margin-left: 1px;
-            margin-bottom: 5px;
-            font-size: 12px;
-            overflow: hidden;
-        }
+            .barraBusquedaEquipos{
+                width: 600px;
+            }
+            .barraBusquedaEquipos li a{
+                width: 48px;
+                gap: 9px;
+                margin-left: 1px;
+                font-size: 10px;
+                overflow: hidden;
+            }
             .buscarEquipos{
                 display: flex;
                 justify-content: start;
@@ -1071,26 +1084,30 @@ body{
                 object-fit: contain;
                 margin-bottom: 30px;
             }
-        .barraBusquedaLigaArg li a{
-            display: flex;
-            justify-content: center;
-            margin-left: 1px;
-            margin-bottom: 5px;
-            font-size: 12px;
-            overflow: hidden;
-        }
+            .barraBusquedaLigaArg{
+                width: 600px;
+            }
+            .barraBusquedaLigaArg li a{
+                width: 48px;
+                gap: 9px;
+                margin-left: 1px;
+                font-size: 10px;
+                overflow: hidden;
+            }
             .noticias iframe{
                 height: 150px;
                 width: 300px;
             }
-        .barraBusquedaResultados li a{
-            display: flex;
-            justify-content: center;
-            margin-left: 1px;
-            margin-bottom: 5px;
-            font-size: 12px;
-            overflow: hidden;
-        }
+            .barraBusquedaResultados{
+                width: 600px;
+            }
+            .barraBusquedaResultados li a{
+                width: 48px;
+                gap: 9px;
+                margin-left: 1px;
+                font-size: 10px;
+                overflow: hidden;
+            }
         .Calendario article{
             margin-top: 20px;
             margin-left: 10px;
@@ -1167,6 +1184,14 @@ body{
         header i{
             color: aliceblue;
         }
+        header a{
+            width: 0px;
+            height: 0px;
+        }
+        header a img{
+            width: 0px;
+            height: 0px;
+        }
         nav .menu{
             width: 100%;
             overflow: hidden;
@@ -1215,20 +1240,25 @@ body{
         -webkit-text-stroke: 1px  rgb(255, 101, 0);
         font-family: "Passion One", serif;
     }
+
+    .barraBusqueda{
+        width: 600px;
+    }
     .barraBusqueda li a{
-        display: flex;
-        justify-content: center;
+        width: 48px;
+        gap: 9px;
         margin-left: 1px;
-        margin-bottom: 5px;
-        font-size: 20px;
-        overflow: hidden;
+        font-size: 10px;
+        overflow: hidden;  
+    }
+    .barraBusquedaJugadores{
+        width: 600px;
     }
     .barraBusquedaJugadores li a{
-        display: flex;
-        justify-content: center;
+        width: 49px;
+        gap: 9px;
         margin-left: 1px;
-        margin-bottom: 5px;
-        font-size: 12px;
+        font-size: 10px;
         overflow: hidden;
     }
         .buscarJugadores{
@@ -1255,14 +1285,16 @@ body{
         }
 
         
-    .barraBusquedaEquipos li a{
-        display: flex;
-        justify-content: center;
-        margin-left: 1px;
-        margin-bottom: 5px;
-        font-size: 12px;
-        overflow: hidden;
-    }
+        .barraBusquedaEquipos{
+            width: 600px;
+        }
+        .barraBusquedaEquipos li a{
+            width: 48px;
+            gap: 9px;
+            margin-left: 1px;
+            font-size: 10px;
+            overflow: hidden;
+        }
         .buscarEquipos{
             display: flex;
             justify-content: start;
@@ -1275,26 +1307,30 @@ body{
             object-fit: contain;
             margin-bottom: 30px;
         }
-    .barraBusquedaLigaArg li a{
-        display: flex;
-        justify-content: center;
-        margin-left: 1px;
-        margin-bottom: 5px;
-        font-size: 12px;
-        overflow: hidden;
-    }
+        .barraBusquedaLigaArg{
+            width: 600px;
+        }
+        .barraBusquedaLigaArg li a{
+            width: 45px;
+            gap: 9px;
+            margin-left: 1px;
+            font-size: 10px;
+            overflow: hidden;
+        }
         .noticias iframe{
             height: 150px;
             width: 300px;
         }
-    .barraBusquedaResultados li a{
-        display: flex;
-        justify-content: center;
-        margin-left: 1px;
-        margin-bottom: 5px;
-        font-size: 12px;
-        overflow: hidden;
-    }
+        .barraBusquedaResultados{
+            width: 600px;
+        }
+        .barraBusquedaResultados li a{
+            width: 48px;
+            gap: 9px;
+            margin-left: 1px;
+            font-size: 10px;
+            overflow: hidden;
+        }
     .Calendario article{
         margin-top: 20px;
         margin-left: 10px;
@@ -1370,21 +1406,32 @@ body{
         header i{
             color: aliceblue;
         }
+        header a{
+            width: 0px;
+            height: 0px;
+        }
+        header a img{
+            width: 0px;
+            height: 0px;
+        }
+        
         nav .menu{
             width: 100%;
             overflow: hidden;
             height: 0;
         }
+
         nav label{
             display: inline-flex;
             cursor: pointer;
         }
         nav #toggle:checked ~ .menu{
-            height: 50%;
+            height: 100%;
         }
     .sectionTitulo{
         color: rgb(233, 237, 240);
         font-size: 20px;
+        width: 105px;
         -webkit-text-stroke: 1px  rgb(255, 101, 0);
         background-color: black;
         font-family: "Passion One", serif
@@ -1418,22 +1465,25 @@ body{
         -webkit-text-stroke: 1px  rgb(255, 101, 0);
         font-family: "Passion One", serif;
     }
+    .barraBusqueda{
+        width: 600px;
+    }
     .barraBusqueda li a{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: .125rem;
+        width: 45px;
+        gap: 9px;
+        margin-left: 1px;
         font-size: 10px;
-        overflow: hidden;
-        
+        overflow: hidden;  
+    }
+
+    .barraBusquedaJugadores{
+        width: 600px;
     }
     .barraBusquedaJugadores li a{
-        display: flex;
-        justify-content: center;
+        width: 45px;
+        gap: 9px;
         margin-left: 1px;
-        margin-bottom: 5px;
-        font-size: 12px;
+        font-size: 10px;
         overflow: hidden;
     }
         .buscarJugadores input{
@@ -1460,13 +1510,15 @@ body{
             margin-left: 70px;
         }
 
+    .barraBusquedaEquipos{
+        width: 600px
+    }
         
     .barraBusquedaEquipos li a{
-        display: flex;
-        justify-content: center;
+        width: 45px;
+        gap: 9px;
         margin-left: 1px;
-        margin-bottom: 5px;
-        font-size: 12px;
+        font-size: 10px;
         overflow: hidden;
     }
         .buscarEquipos input{
@@ -1484,12 +1536,15 @@ body{
             object-fit: contain;
             margin-bottom: 40px;
         }
+
+    .barraBusquedaLigaArg{
+        width: 600px;
+    }
     .barraBusquedaLigaArg li a{
-        display: flex;
-        justify-content: center;
+        width: 45px;
+        gap: 9px;
         margin-left: 1px;
-        margin-bottom: 5px;
-        font-size: 12px;
+        font-size: 10px;
         overflow: hidden;
     }
 
@@ -1502,12 +1557,17 @@ body{
             width: 300px;
             margin-bottom: 80px;
         }
-    .barraBusquedaResultados li a{
+
+    .barraBusquedaResultados{
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        width: 600px;
+    }
+    .barraBusquedaResultados li a{
+        width: 45px;
+        gap: 9px;
         margin-left: 1px;
-        margin-bottom: 5px;
-        font-size: 12px;
+        font-size: 10px;
         overflow: hidden;
     }
     .Calendario article{
