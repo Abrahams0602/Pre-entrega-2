@@ -1032,8 +1032,8 @@ body{
             width: 600px;
         }
         .barraBusquedaJugadores li a{
-            width: 49px;
-            gap: 9px;
+            width: 60px;
+            gap: 5px;
             margin-left: 1px;
             font-size: 10px;
             overflow: hidden;
@@ -1255,8 +1255,8 @@ body{
         width: 600px;
     }
     .barraBusquedaJugadores li a{
-        width: 49px;
-        gap: 9px;
+        width: 60px;
+        gap: 5px;
         margin-left: 1px;
         font-size: 10px;
         overflow: hidden;
@@ -1480,8 +1480,8 @@ body{
         width: 600px;
     }
     .barraBusquedaJugadores li a{
-        width: 45px;
-        gap: 9px;
+        width: 60px;
+        gap: 5px;
         margin-left: 1px;
         font-size: 10px;
         overflow: hidden;
