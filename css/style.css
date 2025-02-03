@@ -77,15 +77,19 @@ body{
     padding: 0;
     overflow: hidden;
 }
+
+.barraBusqueda li a:hover{ /*PSEUDOCLASES*/
+    background-color: gray;
+}
 .barraBusquedaEquipos{
     display: flex;
     flex-direction: row;
     padding: 30px;
     height: 50px;
     list-style: none;
-    font-family: "Passion One", serif;
-    
+    font-family: "Passion One", serif;   
 }
+
 .barraBusquedaEquipos ul{
     display: flex;
     justify-content: right;
@@ -93,8 +97,11 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-
 }
+.barraBusquedaEquipos li a:hover{ /*PSEUDOCLASES*/
+    background-color: gray;
+}
+
 .barraBusquedaJugadores{
     display: flex;
     flex-direction: row;
@@ -112,6 +119,10 @@ body{
     padding: 0;
     overflow: hidden;
 }
+.barraBusquedaJugadores li a:hover{ /*PSEUDOCLASES*/
+    background-color: gray;
+}
+
 .barraBusquedaResultados{
     display: flex;
     flex-direction: row;
@@ -129,14 +140,17 @@ body{
     padding: 0;
     overflow: hidden;
 }
+.barraBusquedaResultados li a:hover{ /*PSEUDOCLASES*/
+    background-color: gray;
+}
+
 .barraBusquedaLigaArg{
     display: flex;
     flex-direction: row;
     padding: 30px;
     height: 50px;
     list-style: none;
-    font-family: "Passion One", serif;
-    
+    font-family: "Passion One", serif;   
 }
 .barraBusquedaLigaArg ul{
     display: flex;
@@ -145,6 +159,9 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+.barraBusquedaLigaArg li a:hover{ /*PSEUDOCLASES*/
+    background-color: gray;
 }
 
 /*SECCIONES*/
@@ -299,6 +316,10 @@ body{
     margin-bottom: 10px;
     box-shadow: 4px 4px 5px black;
 }
+
+.carta-Jugadores1:hover{ /*PSEUDOCLASES*/
+    filter: drop-shadow(2px 2px 5px blue);
+}
 .carta-Jugadores1 img{
     width: 200px;
     height: 200px;
@@ -321,6 +342,9 @@ body{
     margin-bottom: 10px;
     box-shadow: 4px 4px 5px black;
 }
+.carta-Jugadores2:hover{ /*PSEUDOCLASES*/
+    filter: drop-shadow(2px 2px 5px blue);
+}
 .carta-Jugadores2 img{
     width: 200px;
     height: 200px;
@@ -342,7 +366,9 @@ body{
     background-color: rgb(116, 116, 116);
     margin-bottom: 10px;
     box-shadow: 4px 4px 5px black;
-
+}
+.carta-Jugadores3:hover{ /*PSEUDOCLASES*/
+    filter: drop-shadow(2px 2px 5px blue);
 }
 .carta-Jugadores3 img{
     width: 200px;
@@ -365,6 +391,9 @@ body{
     background-color: darkgray;
     margin-bottom: 10px;
     box-shadow: 4px 4px 5px black;
+}
+.carta-Jugadores4:hover{ /*PSEUDOCLASES*/
+    filter: drop-shadow(2px 2px 5px blue);
 }
 .carta-Jugadores4 img{
     width: 200px;
@@ -389,6 +418,9 @@ body{
     margin-bottom: 10px;
     box-shadow: 4px 4px 5px black;
 }
+.carta-Jugadores5:hover{ /*PSEUDOCLASES*/
+    filter: drop-shadow(2px 2px 5px blue);
+}
 .carta-Jugadores5 img{
     width: 200px;
     height: 200px;
@@ -411,6 +443,9 @@ body{
     margin-bottom: 10px;
     box-shadow: 4px 4px 5px black;
 }
+.carta-Jugadores6:hover{ /*PSEUDOCLASES*/
+    filter: drop-shadow(2px 2px 5px blue);
+}
 .carta-Jugadores6 img{
     width: 200px;
     height: 200px;
@@ -426,6 +461,9 @@ body{
     height: 100%;
     object-fit: contain;
 }
+.jalenBrunson img:hover{
+    filter:drop-shadow(2px 2px 5px blue) ;
+}
 
 .imagenEquipos{
     display: flex;
@@ -433,6 +471,9 @@ body{
     margin-bottom: 30px;
     justify-content: center;
     list-style: none;
+}
+.imagenEquipos:hover{
+    filter:drop-shadow(2px 2px 5px blue) 
 }
 
 .Calendario article{
@@ -469,6 +510,9 @@ body{
     justify-content: center;
     margin-top: 30px;
     box-shadow:  4px 4px 4px 5px black;
+}
+.imagenResultados img:hover{
+    filter:drop-shadow(5px 5px 5px blue) 
 }
 
 .partidosDestacados{
