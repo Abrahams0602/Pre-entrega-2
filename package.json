@@ -1,0 +1,21 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "**<h1>Backboard</h1>**\r [![backboard](https://t3.ftcdn.net/jpg/02/65/09/64/360_F_265096439_Lp6ZhWwtvsKoiEeCGGS8QvdfhrbZHXYS.jpg \"backboard\")](http://https://t3.ftcdn.net/jpg/02/65/09/64/360_F_265096439_Lp6ZhWwtvsKoiEeCGGS8QvdfhrbZHXYS.jpg \"backboard\")",
+  "homepage": "https://github.com/Abrahams0602/Pre-entrega-2#readme",
+  "bugs": {
+    "url": "https://github.com/Abrahams0602/Pre-entrega-2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abrahams0602/Pre-entrega-2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"sass --watch ./scss/style.scss:./css/style.css"
+  }
+}

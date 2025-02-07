@@ -1,0 +1,41 @@
+/*1° vamos a llamar a todo lo que sea carpeta utilities*/
+@import "./utilities/mixins";
+
+
+
+
+/*2° vamos a llamar a la carpeta base*/
+@import "./base/reset";
+@import "./base/tipografia";
+
+
+
+
+/*3° vamos a llamar a todo lo del layout*/
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/sections";
+@import "./layout/body";
+
+
+
+/*4° vamos a llamar a los components*/
+
+@import "./components/barrasBusqueda";
+
+@import "./components/titulos";
+
+@import "./components/buscar";
+
+@import "./components/cards";
+
+@import "./components/imagenes";
+
+@import "./components/videos";
+
+@import "./components/calendario";
+
+
+
+
+/*5° vamos a llamar a todo lo que sea mediaquery*/

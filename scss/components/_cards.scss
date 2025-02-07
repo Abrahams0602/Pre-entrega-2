@@ -1,0 +1,114 @@
+.carta-Jugadores1{
+
+    @include cards;
+    &:hover{
+        filter: drop-shadow(2px 2px 5px blue);
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+
+            h3{
+                font-size: 22px;
+                text-align: center;
+                }
+
+    }
+
+}
+.carta-Jugadores2{
+
+    @include cards;
+    &:hover{
+        filter: drop-shadow(2px 2px 5px blue);
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+    }
+            h3{
+                font-size: 22px;
+                text-align: center;
+                }
+
+
+}.carta-Jugadores3{
+
+    @include cards;
+    &:hover{
+        filter: drop-shadow(2px 2px 5px blue);
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+
+            h3{
+                font-size: 22px;
+                text-align: center;
+                }
+
+    }
+
+}.carta-Jugadores4{
+
+    @include cards;
+
+    &:hover{
+        filter: drop-shadow(2px 2px 5px blue);
+        }
+
+        img{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+
+            h3{
+            font-size: 22px;
+            text-align: center;
+            }
+    }
+
+}.carta-Jugadores5{
+
+    @include cards;
+    &:hover{
+        filter: drop-shadow(2px 2px 5px blue);
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+
+            h3{
+                font-size: 22px;
+                text-align: center;
+                }
+    }
+
+}.carta-Jugadores6{
+
+    @include cards;
+    &:hover{
+        filter: drop-shadow(2px 2px 5px blue);
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            h3{
+                font-size: 22px;
+                text-align: center;
+                }
+
+    }
+
+}
+

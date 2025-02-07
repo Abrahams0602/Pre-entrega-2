@@ -1,0 +1,15 @@
+.Calendario{
+    article{
+        margin-top: 20px;
+        margin-left: 600px;
+
+        input{
+            background-color:gray;
+            width: 100px;
+            height: 40px;  
+        }
+        h3{
+            @include fecha;
+    }
+    }
+}

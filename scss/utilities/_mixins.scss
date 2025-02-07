@@ -1,0 +1,53 @@
+@mixin barra(){
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    height: 50px;
+    list-style: none;
+    font-family: "Passion One", serif;
+}
+
+@mixin barraUl(){
+    display: flex;
+    justify-content: right;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@mixin grids(){
+        display: grid;
+        width: 80%;
+        grid-template-columns: 50% 300px 300px ;
+        grid-template-rows: repeat(3,18.75rem);
+        column-gap: 200px;
+        row-gap: 20px;
+        
+}
+
+@mixin cards(){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 200px;
+    height: 300px;
+    list-style: decimal;
+    list-style-position: inside;
+    background-color: darkgray;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 5px black;
+}
+
+@mixin fecha(){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 70px;
+    background-color: rgb(30, 62, 98);
+    color: gray;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 5px black;
+}

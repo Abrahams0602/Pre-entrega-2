@@ -1,0 +1,27 @@
+.buscarJugadores{
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.buscarEquipos{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    list-style: none;
+}
+
+.buscarEquiposArg{
+    display: flex;
+    justify-content: first baseline;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    list-style: none;
+}

@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    background-color: rgb(17, 0, 0);
+    p {
+        color: rgb(255, 255, 255);
+        list-style: none;
+        li{
+            a{
+                display: flex;
+                justify-content: space-between;
+                color: rgb(224, 234, 243);
+                list-style: none;
+                font-size: larger;
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.barraBusqueda{
+
+    @include barra;
+
+    ul{
+
+        @include barraUl;
+
+        li {
+            a{
+                &:hover{
+                    background-color: gray;
+                }
+            }
+        }
+    }
+
+}
+
+.barraBusquedaEquipos{
+    @include barra;
+    
+    ul{
+        @include barraUl;
+
+        li {
+            a{
+                &:hover{
+                    background-color: gray;
+                }
+            }
+        }
+    }
+
+
+}
+.barraBusquedaJugadores{
+
+    @include barra;
+    
+    ul{
+
+        @include barraUl;
+
+        li {
+            a{
+                &:hover{
+                    background-color: gray;
+                }
+            }
+        }
+    }
+
+}
+
+.barraBusquedaResultados{
+
+    @include barra;
+    
+    ul{
+
+        @include barraUl;
+
+        li {
+            a{
+                &:hover{
+                    background-color: gray;
+                }
+            }
+        }
+    }
+
+}
+
+.barraBusquedaLigaArg{
+
+    @include barra;
+    
+    ul{
+
+        @include barraUl;
+
+        li {
+            a{
+                &:hover{
+                    background-color: gray;
+                }
+            }
+        }
+    }
+
+}
+
+

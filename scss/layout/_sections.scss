@@ -1,0 +1,92 @@
+.imagenBackboard{
+    img{
+        display: flex;
+        object-fit:contain;
+        width: 100%;
+        }
+    }
+
+
+.sectionSubtitulo{
+    color: rgb(248, 248, 248);
+    -webkit-text-stroke: 1px black;
+    background-color: rgb(255, 101, 0);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Passion One", serif
+}
+
+.sectionHighlights{
+    display: flex;
+    color: rgb(248, 252, 255);
+    -webkit-text-stroke: 1px black;
+    background-color: rgb(255, 101, 0);
+    font-family: "Passion One", serif
+    
+}
+
+.Highlights{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: .625rem;
+}
+
+.ultimasNoticias{
+    color: rgb(248, 250, 252);
+    -webkit-text-stroke: 1px black;
+    background-color: rgb(255, 101, 0);
+    font-family: "Passion One", serif;
+}
+
+.noticias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partidosDestacados{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    gap: 30px;
+    
+    h2{
+        color: rgb(248, 252, 255);
+        -webkit-text-stroke: 1px black;
+        font-family: "Passion One", serif
+    }
+}
+
+.jugadoresMvps{
+    @include grids;
+    grid-template-areas: 
+    
+    "jalenBrunson carta-Jugadores1 carta-Jugadores2"
+    "jalenBrunson carta-Jugadores3 carta-Jugadores4"
+    "jalenBrunson carta-Jugadores5 carta-Jugadores6"    
+    ;
+
+    .carta-Jugadores1{
+        grid-area: carta-Jugadores1;
+    }
+    .carta-Jugadores2{
+        grid-area: carta-Jugadores2;
+    }
+    .carta-Jugadores3{
+        grid-area: carta-Jugadores3;
+    }
+    .carta-Jugadores4{
+        grid-area: carta-Jugadores4;
+    }
+    .carta-Jugadores5{
+        grid-area: carta-Jugadores5;
+    }
+    .carta-Jugadores6{
+        grid-area: carta-Jugadores6;
+    }
+    
+    .jalenBrunson{
+        grid-area: jalenBrunson;
+    }
+}
