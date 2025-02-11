@@ -1,16 +1,22 @@
 footer{
     display: flex;
     background-color: rgb(17, 0, 0);
-    p {
+    p{
         color: rgb(255, 255, 255);
         list-style: none;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 3.125rem;
+        margin-left: 20px;
         li{
             a{
-                display: flex;
                 justify-content: space-between;
                 color: rgb(224, 234, 243);
-                list-style: none;
                 font-size: larger;
+                list-style: circle;
             }
         }
     }

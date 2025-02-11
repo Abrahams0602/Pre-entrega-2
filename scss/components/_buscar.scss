@@ -1,27 +1,28 @@
 .buscarJugadores{
-    display: flex;
-    justify-content: center;
+    @include fecha;
+    color:gray;
     margin-left: 700px;
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 30px;
+    height: 60px;
 }
 
 .buscarEquipos{
-    display: flex;
-    justify-content: center;
+    @include fecha;
+    color:gray;
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 30px;
+    height: 60px;
     list-style: none;
 }
 
 .buscarEquiposArg{
-    display: flex;
+    @include fecha;
+    color:gray;
     justify-content: first baseline;
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 30px;
+    height: 60px;
     list-style: none;
 }

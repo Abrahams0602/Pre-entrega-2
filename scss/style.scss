@@ -6,15 +6,20 @@
 
 /*2° vamos a llamar a la carpeta base*/
 @import "./base/reset";
+
 @import "./base/tipografia";
 
+@import "./base/toggle";
 
 
 
 /*3° vamos a llamar a todo lo del layout*/
 @import "./layout/header";
+
 @import "./layout/footer";
+
 @import "./layout/sections";
+
 @import "./layout/body";
 
 
