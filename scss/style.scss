@@ -24,6 +24,9 @@
 
 
 
+
+
+
 /*4° vamos a llamar a los components*/
 
 @import "./components/barrasBusqueda";
@@ -44,3 +47,13 @@
 
 
 /*5° vamos a llamar a todo lo que sea mediaquery*/
+
+@import "./layout/mediaQuery/1024px";
+
+@import "./layout/mediaQuery/768px";
+
+@import "./layout/mediaQuery/425px";
+
+@import "./layout/mediaQuery/375px";
+
+@import "./layout/mediaQuery/320px";

@@ -392,7 +392,7 @@ body {
   height: 200px;
   object-fit: contain;
 }
-.carta-Jugadores2 h3 {
+.carta-Jugadores2 img h3 {
   font-size: 22px;
   text-align: center;
 }
@@ -561,5 +561,876 @@ body {
 }
 
 /*5° vamos a llamar a todo lo que sea mediaquery*/
+@media (max-width: 1024px) {
+  .barraBusqueda li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .Highlights h3 iframe {
+    display: flex;
+    height: 200px;
+    width: 300px;
+    justify-content: start;
+    flex-direction: column;
+  }
+  .barraBusquedaEquipos li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .barraBusquedaJugadores li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .buscarJugadores {
+    display: flex;
+    justify-content: start;
+    margin-left: 80px;
+  }
+  .jugadoresMvps { /* + GRIDS */
+    display: grid;
+    width: 80%;
+    grid-template-columns: 30% 100px 100px;
+    grid-template-rows: repeat(3, 18.75rem);
+    grid-template-areas: "jalenBrunson carta-Jugadores1 carta-Jugadores2" "jalenBrunson carta-Jugadores3 carta-Jugadores4" "jalen Brunson carta-Jugadores5 carta-Jugadores6";
+    column-gap: 200px;
+    row-gap: 100px;
+    margin-left: 30px;
+  }
+  .jalenBrunson img {
+    object-fit: contain;
+    height: 700px;
+    width: 400px;
+  }
+  .barraBusquedaLigaArg li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .noticias {
+    display: flex;
+    flex-direction: column;
+  }
+  .barraBusquedaResultados li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .partidosDestacados {
+    display: flex;
+    flex-direction: column;
+  }
+  .Calendario article {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .Calendario input {
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+  }
+  .Calendario h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 70px;
+    background-color: rgb(30, 62, 98);
+    color: gray;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 5px black;
+  }
+  .imagenResultados {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+  }
+  .imagenResultados img {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: 4px 4px 4px 5px black;
+  }
+}
+@media (max-width: 768px) {
+  header i {
+    color: aliceblue;
+  }
+  header nav .menu {
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+  }
+  header nav label {
+    display: inline-flex;
+    cursor: pointer;
+  }
+  header nav #toggle:checked ~ .menu {
+    height: 100%;
+  }
+  .barraBusqueda li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .Highlights h3 iframe {
+    height: 300px;
+    width: 500px;
+    justify-content: start;
+  }
+  .Highlights {
+    display: flex;
+    flex-direction: column;
+  }
+  .barraBusquedaEquipos li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .barraBusquedaJugadores li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .buscarJugadores {
+    display: flex;
+    justify-content: start;
+    margin-left: 80px;
+  }
+  .jugadoresMvps { /* + GRIDS */
+    display: grid;
+    width: 80%;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: repeat(3, 18.75rem);
+    grid-template-areas: "carta-Jugadores1 carta-Jugadores2" "carta-Jugadores3 carta-Jugadores4" "carta-Jugadores5 carta-Jugadores6";
+    column-gap: 200px;
+    row-gap: 100px;
+    margin-left: 30px;
+  }
+  .jalenBrunson img {
+    height: 1px;
+    width: 1px;
+  }
+  .barraBusquedaLigaArg li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .noticias {
+    display: flex;
+    flex-direction: column;
+  }
+  .barraBusquedaResultados li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .partidosDestacados {
+    display: flex;
+    flex-direction: column;
+  }
+  .Calendario article {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .Calendario input {
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+  }
+  .Calendario h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 70px;
+    background-color: rgb(30, 62, 98);
+    color: gray;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 5px black;
+  }
+  .imagenResultados {
+    display: flex;
+    margin-left: 200px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .imagenResultados img {
+    display: flex;
+    width: 390px;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: 4px 4px 4px 5px black;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    display: flex;
+    width: 600px;
+  }
+  header i {
+    color: aliceblue;
+  }
+  header a {
+    width: 0px;
+    height: 0px;
+  }
+  header a img {
+    width: 0px;
+    height: 0px;
+  }
+  nav .menu {
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+  }
+  nav label {
+    display: inline-flex;
+    cursor: pointer;
+  }
+  nav #toggle:checked ~ .menu {
+    height: 100%;
+  }
+  .sectionTitulo {
+    color: rgb(233, 237, 240);
+    font-size: 20px;
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    background-color: black;
+    font-family: "Passion One", serif;
+  }
+  .tituloEquipos {
+    font-size: 20px;
+    color: rgb(248, 252, 255);
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    font-family: "Passion One", serif;
+  }
+  .tituloJugadores {
+    font-size: 20px;
+    color: rgb(247, 251, 255);
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    height: 40px;
+    font-family: "Passion One", serif;
+  }
+  .tituloArg {
+    font-size: 20px;
+    color: rgb(248, 252, 255);
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    font-family: "Passion One", serif;
+  }
+  .tituloResultados {
+    font-size: 20px;
+    color: rgb(248, 252, 255);
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    font-family: "Passion One", serif;
+  }
+  .barraBusqueda {
+    width: 600px;
+  }
+  .barraBusqueda li a {
+    width: 60px;
+    gap: 5px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .barraBusquedaJugadores {
+    width: 600px;
+  }
+  .barraBusquedaJugadores li a {
+    width: 60px;
+    gap: 5px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .buscarJugadores {
+    display: flex;
+    justify-content: start;
+    margin-left: 2px;
+  }
+  .jugadoresMvps { /* + GRIDS */
+    display: grid;
+    width: 80%;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, 18.75rem);
+    grid-template-areas: "carta-Jugadores1" "carta-Jugadores2" "carta-Jugadores3" "carta-Jugadores4" "carta-Jugadores5" "carta-Jugadores6";
+    column-gap: 150px;
+    margin-left: 70px;
+  }
+  .barraBusquedaEquipos {
+    width: 600px;
+  }
+  .barraBusquedaEquipos li a {
+    width: 48px;
+    gap: 9px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .buscarEquipos {
+    display: flex;
+    justify-content: start;
+    font-size: 10px;
+  }
+  .imagenEquipos img {
+    height: 400px;
+    width: 390px;
+    object-fit: contain;
+    margin-bottom: 30px;
+  }
+  .barraBusquedaLigaArg {
+    width: 600px;
+  }
+  .barraBusquedaLigaArg li a {
+    width: 48px;
+    gap: 9px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .noticias iframe {
+    height: 150px;
+    width: 300px;
+  }
+  .barraBusquedaResultados {
+    width: 600px;
+  }
+  .barraBusquedaResultados li a {
+    width: 48px;
+    gap: 9px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .Calendario article {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .Calendario input {
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+  }
+  .Calendario h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 70px;
+    background-color: rgb(30, 62, 98);
+    color: gray;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 5px black;
+  }
+  .imagenResultados {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .imagenResultados img {
+    display: flex;
+    width: 340px;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: 4px 4px 4px 5px black;
+  }
+  .imagenBackboard img {
+    width: 600px;
+    object-fit: contain;
+  }
+  .sectionSubtitulo h2 {
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .sectionSubtitulo p {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .sectionHighlights h2 {
+    display: flex;
+    width: 30px;
+    margin-bottom: 40px;
+  }
+  .Highlights h3 iframe {
+    height: 150px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .Highlights {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 375px) {
+  header i {
+    color: aliceblue;
+  }
+  header a {
+    width: 0px;
+    height: 0px;
+  }
+  header img {
+    width: 0px;
+    height: 0px;
+  }
+  header nav .menu {
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+  }
+  header nav label {
+    display: inline-flex;
+    cursor: pointer;
+  }
+  header nav #toggle:checked ~ .menu {
+    height: 100%;
+  }
+  .sectionTitulo {
+    color: rgb(233, 237, 240);
+    font-size: 14px;
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    background-color: black;
+    font-family: "Passion One", serif;
+  }
+  .tituloEquipos {
+    font-size: 20px;
+    color: rgb(248, 252, 255);
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    font-family: "Passion One", serif;
+  }
+  .tituloJugadores {
+    font-size: 20px;
+    color: rgb(247, 251, 255);
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    height: 40px;
+    font-family: "Passion One", serif;
+  }
+  .tituloArg {
+    font-size: 20px;
+    color: rgb(248, 252, 255);
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    font-family: "Passion One", serif;
+  }
+  .tituloResultados {
+    font-size: 20px;
+    color: rgb(248, 252, 255);
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    font-family: "Passion One", serif;
+  }
+  .barraBusqueda {
+    width: 600px;
+  }
+  .barraBusqueda li a {
+    width: 48px;
+    gap: 9px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .barraBusquedaJugadores {
+    width: 600px;
+  }
+  .barraBusquedaJugadores li a {
+    width: 60px;
+    gap: 5px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .buscarJugadores {
+    display: flex;
+    justify-content: start;
+    margin-left: 2px;
+  }
+  .jugadoresMvps { /* + GRIDS */
+    display: grid;
+    width: 80%;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, 18.75rem);
+    grid-template-areas: "carta-Jugadores1" "carta-Jugadores2" "carta-Jugadores3" "carta-Jugadores4" "carta-Jugadores5" "carta-Jugadores6";
+    column-gap: 150px;
+    margin-left: 70px;
+  }
+  .barraBusquedaEquipos {
+    width: 600px;
+  }
+  .barraBusquedaEquipos li a {
+    width: 48px;
+    gap: 9px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .buscarEquipos {
+    display: flex;
+    justify-content: start;
+    font-size: 10px;
+  }
+  .imagenEquipos img {
+    height: 400px;
+    width: 390px;
+    object-fit: contain;
+    margin-bottom: 30px;
+  }
+  .barraBusquedaLigaArg {
+    width: 600px;
+  }
+  .barraBusquedaLigaArg li a {
+    width: 45px;
+    gap: 9px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .noticias iframe {
+    height: 150px;
+    width: 300px;
+  }
+  .barraBusquedaResultados {
+    width: 600px;
+  }
+  .barraBusquedaResultados li a {
+    width: 48px;
+    gap: 9px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .Calendario article {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .Calendario input {
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+  }
+  .Calendario h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 70px;
+    background-color: rgb(30, 62, 98);
+    color: gray;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 5px black;
+  }
+  .imagenResultados {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .imagenResultados img {
+    display: flex;
+    width: 340px;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: 4px 4px 4px 5px black;
+  }
+  .imagenBackboard img {
+    width: 600px;
+    object-fit: contain;
+  }
+  .sectionSubtitulo h2 {
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .sectionSubtitulo p {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .sectionHighlights h2 {
+    display: flex;
+    width: 30px;
+    margin-bottom: 40px;
+  }
+  .Highlights iframe {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  footer {
+    margin-top: 80px;
+    width: 600px;
+  }
+}
+@media (max-width: 320px) {
+  header i {
+    color: aliceblue;
+  }
+  header a {
+    width: 0px;
+    height: 0px;
+  }
+  header img {
+    width: 0px;
+    height: 0px;
+  }
+  header nav .menu {
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+  }
+  header nav label {
+    display: inline-flex;
+    cursor: pointer;
+  }
+  header nav #toggle:checked ~ .menu {
+    height: 100%;
+  }
+  .sectionTitulo {
+    color: rgb(233, 237, 240);
+    font-size: 20px;
+    width: 105px;
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    background-color: black;
+    font-family: "Passion One", serif;
+  }
+  .tituloEquipos {
+    font-size: 20px;
+    color: rgb(248, 252, 255);
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    font-family: "Passion One", serif;
+  }
+  .tituloJugadores {
+    font-size: 20px;
+    color: rgb(247, 251, 255);
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    height: 40px;
+    font-family: "Passion One", serif;
+  }
+  .tituloArg {
+    font-size: 20px;
+    color: rgb(248, 252, 255);
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    font-family: "Passion One", serif;
+  }
+  .tituloResultados {
+    font-size: 20px;
+    color: rgb(248, 252, 255);
+    -webkit-text-stroke: 1px rgb(255, 101, 0);
+    font-family: "Passion One", serif;
+  }
+  .barraBusqueda {
+    width: 600px;
+  }
+  .barraBusqueda li a {
+    width: 45px;
+    gap: 9px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .barraBusquedaJugadores {
+    width: 600px;
+  }
+  .barraBusquedaJugadores li a {
+    width: 60px;
+    gap: 5px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .buscarJugadores input {
+    display: flex;
+    width: 90px;
+    justify-content: start;
+    margin-left: 2px;
+  }
+  .jugadoresMvps { /* + GRIDS */
+    display: grid;
+    width: 80%;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, 18.75rem);
+    grid-template-areas: "carta-Jugadores1" "carta-Jugadores2" "carta-Jugadores3" "carta-Jugadores4" "carta-Jugadores5" "carta-Jugadores6";
+    column-gap: 150px;
+    margin-left: 70px;
+  }
+  .barraBusquedaEquipos {
+    width: 600px;
+  }
+  .barraBusquedaEquipos li a {
+    width: 45px;
+    gap: 9px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .buscarEquipos input {
+    display: flex;
+    justify-content: start;
+    width: 50px;
+  }
+  .buscarEquipos {
+    width: 70px;
+  }
+  .imagenEquipos img {
+    height: 600px;
+    width: 350px;
+    object-fit: contain;
+    margin-bottom: 40px;
+  }
+  .barraBusquedaLigaArg {
+    width: 600px;
+  }
+  .barraBusquedaLigaArg li a {
+    width: 45px;
+    gap: 9px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .equiposLigaArg img {
+    width: 320px;
+    height: 600px;
+  }
+  .noticias iframe {
+    height: 180px;
+    width: 300px;
+    margin-bottom: 80px;
+  }
+  .barraBusquedaResultados {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+  }
+  .barraBusquedaResultados li a {
+    width: 45px;
+    gap: 9px;
+    margin-left: 1px;
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .Calendario article {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .Calendario input {
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+  }
+  .Calendario h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    background-color: rgb(30, 62, 98);
+    color: gray;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 5px black;
+  }
+  .imagenResultados {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .imagenResultados img {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: 4px 4px 4px 5px black;
+  }
+  .imagenBackboard img {
+    width: 600px;
+    object-fit: contain;
+  }
+  .sectionSubtitulo h2 {
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .sectionSubtitulo p {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .sectionHighlights h2 {
+    display: flex;
+    width: 30px;
+    margin-bottom: 40px;
+  }
+  .Highlights h3 iframe {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  footer {
+    margin-top: 200px;
+    width: 600px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
