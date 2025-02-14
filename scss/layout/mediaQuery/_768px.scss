@@ -18,46 +18,80 @@
 
     }
 
-.barraBusqueda li a{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    margin: 0;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 18px;
-    overflow: hidden;
+    .barraBusqueda{
+        li{
+            a{
+                display: flex;
+                justify-content: center;
+                justify-content: space-around;
+                margin: 0;
+                margin-bottom: 10px;
+                padding: 10px;
+                font-size: 18px;
+                overflow: hidden;
+            }
+
+        }
+
 }
 
-.Highlights h3 iframe{
-    height: 300px;
-    width: 500px;
-    justify-content: start;
+.sectionHighlights{
+    display: flex;
+    flex-direction: column;
+    h2{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
 }
+
 .Highlights{
     display: flex;
     flex-direction: column;
+    iframe{
+        height: 200px;
+        width: 700px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 35px;
+    }
+
+} 
+
+
+.barraBusquedaEquipos{
+    li {
+        a{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            margin: 0;                        
+            padding: 10px;
+            font-size: 18px;
+            overflow: hidden;
+        }
+
+    }
 }
 
-.barraBusquedaEquipos li a{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    margin: 0;
-    padding: 10px;
-    font-size: 18px;
-    overflow: hidden;
 
-}
+.barraBusquedaJugadores{
+        li{
+            a{
+                display: flex;
+                justify-content: center;
+                justify-content: space-around;
+                margin: 0;
+                padding: 10px;
+                font-size: 18px;
+                overflow: hidden;
+                }
 
-.barraBusquedaJugadores li a{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    margin: 0;
-    padding: 10px;
-    font-size: 18px;
-    overflow: hidden;
+            } 
+
 }
 .buscarJugadores{
     display: flex;
@@ -80,18 +114,24 @@
     row-gap: 100px;
     margin-left: 30px;
 }
-.jalenBrunson img{
-    height: 1px;
-    width: 1px;
+.jalenBrunson{
+    img{
+        height: 1px;
+        width: 1px;
+    }
 }
-.barraBusquedaLigaArg li a{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    margin: 0;
-    padding: 10px;
-    font-size: 18px;
-    overflow: hidden;
+.barraBusquedaLigaArg{
+    li{
+        a{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            margin: 0;
+            padding: 10px;
+            font-size: 18px;
+            overflow: hidden;
+            }
+        }
 }
 
 .noticias{
@@ -99,54 +139,64 @@
     flex-direction: column;
 }
 
-.barraBusquedaResultados li a{
-        display: flex;
-        justify-content: center;
-        justify-content: space-around;
-        margin: 0;
-        padding: 10px;
-        font-size: 18px;
-        overflow: hidden;
+.barraBusquedaResultados{
+    li{
+        a{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            margin: 0;
+            padding: 10px;
+            font-size: 18px;
+            overflow: hidden;
+        }
+
     }
+
+}
     .partidosDestacados{
         display: flex;
         flex-direction: column;
     }
-    .Calendario article{
-        margin-top: 20px;
-        margin-left: 10px;
+    .Calendario{
+        article{
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        input{
+            background-color:gray;
+            width: 100px;
+            height: 40px;
+        }
+        h3{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+            height: 70px;
+            background-color: rgb(30, 62, 98);
+            color: gray;
+            margin-bottom: 10px;
+            box-shadow: 4px 4px 5px black;
+        }
+
     }
-    .Calendario input{
-        background-color:gray;
-        width: 100px;
-        height: 40px;
-    }
-    .Calendario h3{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        width: 350px;
-        height: 70px;
-        background-color: rgb(30, 62, 98);
-        color: gray;
-        margin-bottom: 10px;
-        box-shadow: 4px 4px 5px black;
-    }
+
     .imagenResultados{
         display: flex;
         margin-left: 200px;
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-    }
-    
-    .imagenResultados img{
-        display: flex;
-        width: 390px;
-        justify-content: center;
-        margin-top: 30px;
-        box-shadow:  4px 4px 4px 5px black;
+
+        img{
+            display: flex;
+            width: 390px;
+            justify-content: center;
+            margin-top: 30px;
+            box-shadow:  4px 4px 4px 5px black;
+        }
     }
     
 }

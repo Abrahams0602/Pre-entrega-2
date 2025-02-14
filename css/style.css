@@ -561,6 +561,134 @@ body {
 }
 
 /*5° vamos a llamar a todo lo que sea mediaquery*/
+@media (max-width: 1440px) {
+  .barraBusqueda li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .sectionHighlights {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionHighlights h2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .Highlights iframe {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .barraBusquedaEquipos li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .barraBusquedaJugadores li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .buscarJugadores {
+    display: flex;
+    justify-content: start;
+    margin-left: 80px;
+  }
+  .jugadoresMvps { /* + GRIDS */
+    display: grid;
+    width: 80%;
+    grid-template-columns: 50% 200px 200px;
+    grid-template-rows: repeat(3, 18.75rem);
+    grid-template-areas: "jalenBrunson carta-Jugadores1 carta-Jugadores2" "jalenBrunson carta-Jugadores3 carta-Jugadores4" "jalen Brunson carta-Jugadores5 carta-Jugadores6";
+    column-gap: 200px;
+    row-gap: 100px;
+    margin-left: 30px;
+  }
+  .jalenBrunson img {
+    object-fit: contain;
+    height: 1000px;
+    width: 700px;
+  }
+  .barraBusquedaLigaArg li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .noticias {
+    display: flex;
+    flex-direction: column;
+  }
+  .barraBusquedaResultados li a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .Calendario article {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .Calendario input {
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+  }
+  .Calendario h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 70px;
+    background-color: rgb(30, 62, 98);
+    color: gray;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 5px black;
+  }
+  .imagenResultados {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+  }
+  .imagenResultados img {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: 4px 4px 4px 5px black;
+  }
+  .partidosDestacados {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 1024px) {
   .barraBusqueda li a {
     display: flex;
@@ -572,7 +700,16 @@ body {
     font-size: 18px;
     overflow: hidden;
   }
-  .Highlights h3 iframe {
+  .sectionHighlights {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionHighlights h2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .Highlights iframe {
     display: flex;
     height: 200px;
     width: 300px;
@@ -607,14 +744,14 @@ body {
     width: 80%;
     grid-template-columns: 30% 100px 100px;
     grid-template-rows: repeat(3, 18.75rem);
-    grid-template-areas: "jalenBrunson carta-Jugadores1 carta-Jugadores2" "jalenBrunson carta-Jugadores3 carta-Jugadores4" "jalen Brunson carta-Jugadores5 carta-Jugadores6";
     column-gap: 200px;
     row-gap: 100px;
     margin-left: 30px;
+    grid-template-areas: "jalenBrunson carta-Jugadores1 carta-Jugadores2" "jalenBrunson carta-Jugadores3 carta-Jugadores4" "jalen Brunson carta-Jugadores5 carta-Jugadores6";
   }
   .jalenBrunson img {
-    object-fit: contain;
-    height: 700px;
+    object-fit: cover;
+    height: 900px;
     width: 400px;
   }
   .barraBusquedaLigaArg li a {
@@ -672,7 +809,7 @@ body {
   }
   .imagenResultados img {
     display: flex;
-    width: 600px;
+    width: 550px;
     justify-content: center;
     margin-top: 30px;
     box-shadow: 4px 4px 4px 5px black;
@@ -704,14 +841,27 @@ body {
     font-size: 18px;
     overflow: hidden;
   }
-  .Highlights h3 iframe {
-    height: 300px;
-    width: 500px;
-    justify-content: start;
+  .sectionHighlights {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionHighlights h2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
   }
   .Highlights {
     display: flex;
     flex-direction: column;
+  }
+  .Highlights iframe {
+    height: 200px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
   }
   .barraBusquedaEquipos li a {
     display: flex;
@@ -824,20 +974,20 @@ body {
     width: 0px;
     height: 0px;
   }
-  header a img {
+  header img {
     width: 0px;
     height: 0px;
   }
-  nav .menu {
+  header nav .menu {
     width: 100%;
     overflow: hidden;
     height: 0;
   }
-  nav label {
+  header nav label {
     display: inline-flex;
     cursor: pointer;
   }
-  nav #toggle:checked ~ .menu {
+  header nav #toggle:checked ~ .menu {
     height: 100%;
   }
   .sectionTitulo {
@@ -939,7 +1089,8 @@ body {
   }
   .noticias iframe {
     height: 150px;
-    width: 300px;
+    width: 450px;
+    margin-top: 20px;
   }
   .barraBusquedaResultados {
     width: 600px;
@@ -965,7 +1116,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 50px;
     height: 70px;
     background-color: rgb(30, 62, 98);
     color: gray;
@@ -1005,15 +1156,15 @@ body {
     width: 30px;
     margin-bottom: 40px;
   }
-  .Highlights h3 iframe {
+  .Highlights {
+    display: flex;
+    flex-direction: column;
+  }
+  .Highlights iframe {
     height: 150px;
     width: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  .Highlights {
-    display: flex;
-    flex-direction: column;
   }
 }
 @media (max-width: 375px) {
@@ -1075,9 +1226,12 @@ body {
   .barraBusqueda {
     width: 600px;
   }
+  .barraBusqueda {
+    width: 600px;
+  }
   .barraBusqueda li a {
-    width: 48px;
-    gap: 9px;
+    width: 60px;
+    gap: 5px;
     margin-left: 1px;
     font-size: 10px;
     overflow: hidden;
@@ -1131,7 +1285,7 @@ body {
     width: 600px;
   }
   .barraBusquedaLigaArg li a {
-    width: 45px;
+    width: 48px;
     gap: 9px;
     margin-left: 1px;
     font-size: 10px;
@@ -1139,7 +1293,8 @@ body {
   }
   .noticias iframe {
     height: 150px;
-    width: 300px;
+    width: 450px;
+    margin-top: 20px;
   }
   .barraBusquedaResultados {
     width: 600px;
@@ -1165,7 +1320,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 50px;
     height: 70px;
     background-color: rgb(30, 62, 98);
     color: gray;
@@ -1205,13 +1360,15 @@ body {
     width: 30px;
     margin-bottom: 40px;
   }
-  .Highlights iframe {
+  .Highlights {
     display: flex;
     flex-direction: column;
+  }
+  .Highlights iframe {
     height: 150px;
-    width: 300px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    width: 340px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   footer {
     margin-top: 80px;
@@ -1369,12 +1526,12 @@ body {
     margin-top: 20px;
     margin-left: 10px;
   }
-  .Calendario input {
+  .Calendario article input {
     background-color: gray;
     width: 100px;
     height: 40px;
   }
-  .Calendario h3 {
+  .Calendario article h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1419,7 +1576,7 @@ body {
     width: 30px;
     margin-bottom: 40px;
   }
-  .Highlights h3 iframe {
+  .Highlights iframe {
     display: flex;
     flex-direction: column;
     height: 150px;

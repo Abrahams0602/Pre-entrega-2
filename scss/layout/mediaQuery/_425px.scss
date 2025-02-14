@@ -2,30 +2,31 @@
         header{
             display: flex;
             width: 600px;
+            i{
+                color: aliceblue;
+            }
+            a{
+                width: 0px;
+                height: 0px;
+            }
+            img{
+                width: 0px;
+                height: 0px;
+            }
+            nav .menu{
+                width: 100%;
+                overflow: hidden;
+                height: 0;
+            }
+            nav label{
+                display: inline-flex;
+                cursor: pointer;
+            }
+            nav #toggle:checked ~ .menu{
+                height: 100%;
+            }
         }
-        header i{
-            color: aliceblue;
-        }
-        header a{
-            width: 0px;
-            height: 0px;
-        }
-        header a img{
-            width: 0px;
-            height: 0px;
-        }
-        nav .menu{
-            width: 100%;
-            overflow: hidden;
-            height: 0;
-        }
-        nav label{
-            display: inline-flex;
-            cursor: pointer;
-        }
-        nav #toggle:checked ~ .menu{
-            height: 100%;
-        }
+
         .sectionTitulo{
             color: rgb(233, 237, 240);
             font-size: 20px;
@@ -62,26 +63,33 @@
             -webkit-text-stroke: 1px  rgb(255, 101, 0);
             font-family: "Passion One", serif;
         }
+
         .barraBusqueda{
             width: 600px;
-        }
-        .barraBusqueda li a{
-            width: 60px;
-            gap: 5px;
-            margin-left: 1px;
-            font-size: 10px;
-            overflow: hidden;  
+            li{
+                a{
+                    width: 60px;
+                    gap: 5px;
+                    margin-left: 1px;
+                    font-size: 10px;
+                    overflow: hidden;  
+                }
+            } 
         }
         .barraBusquedaJugadores{
             width: 600px;
+            li{
+                a{
+                    width: 60px;
+                    gap: 5px;
+                    margin-left: 1px;
+                    font-size: 10px;
+                    overflow: hidden;
+                }
+
+            }
         }
-        .barraBusquedaJugadores li a{
-            width: 60px;
-            gap: 5px;
-            margin-left: 1px;
-            font-size: 10px;
-            overflow: hidden;
-        }
+
             .buscarJugadores{
                 display: flex;
                 justify-content: start;
@@ -105,16 +113,17 @@
                 margin-left: 70px;
             }
     
-            
             .barraBusquedaEquipos{
                 width: 600px;
-            }
-            .barraBusquedaEquipos li a{
-                width: 48px;
-                gap: 9px;
-                margin-left: 1px;
-                font-size: 10px;
-                overflow: hidden;
+                li{
+                    a{
+                        width: 48px;
+                        gap: 9px;
+                        margin-left: 1px;
+                        font-size: 10px;
+                        overflow: hidden;
+                    }
+                }
             }
             .buscarEquipos{
                 display: flex;
@@ -122,103 +131,132 @@
                 font-size: 10px;
             }
     
-            .imagenEquipos img{
-                height: 400px;
-                width: 390px;
-                object-fit: contain;
-                margin-bottom: 30px;
+            .imagenEquipos{
+                img{
+                    height: 400px;
+                    width: 390px;
+                    object-fit: contain;
+                    margin-bottom: 30px;
+                }
+
             }
             .barraBusquedaLigaArg{
                 width: 600px;
+                li{
+                    a{
+                        width: 48px;
+                        gap: 9px;
+                        margin-left: 1px;
+                        font-size: 10px;
+                        overflow: hidden;
+                    }
+
+                }
             }
-            .barraBusquedaLigaArg li a{
-                width: 48px;
-                gap: 9px;
-                margin-left: 1px;
-                font-size: 10px;
-                overflow: hidden;
-            }
-            .noticias iframe{
-                height: 150px;
-                width: 300px;
+
+            .noticias{
+                iframe{
+                    height: 150px;
+                    width: 450px;
+                    margin-top: 20px;
+                }
+
             }
             .barraBusquedaResultados{
                 width: 600px;
+                li{
+                    a{
+                        width: 48px;
+                        gap: 9px;
+                        margin-left: 1px;
+                        font-size: 10px;
+                        overflow: hidden;
+                    }
+
+                }
             }
-            .barraBusquedaResultados li a{
-                width: 48px;
-                gap: 9px;
-                margin-left: 1px;
-                font-size: 10px;
-                overflow: hidden;
+
+        .Calendario{
+            article{
+                margin-top: 20px;
+                margin-left: 10px;
             }
-        .Calendario article{
-            margin-top: 20px;
-            margin-left: 10px;
+            input{
+                background-color:gray;
+                width: 100px;
+                height: 40px;
+            }
+            h3{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:center;
+                align-items: center;
+                width: 50px;
+                height: 70px;
+                background-color: rgb(30, 62, 98);
+                color: gray;
+                margin-bottom: 10px;
+                box-shadow: 4px 4px 5px black;
+            }
+
         }
-        .Calendario input{
-            background-color:gray;
-            width: 100px;
-            height: 40px;
-        }
-        .Calendario h3{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            width: 350px;
-            height: 70px;
-            background-color: rgb(30, 62, 98);
-            color: gray;
-            margin-bottom: 10px;
-            box-shadow: 4px 4px 5px black;
-        }
+
+        
         .imagenResultados{
             display: flex;
             margin-left: 10px;
             flex-direction: column;
             justify-content: center;
             gap: 10px;
+            img{
+                display: flex;
+                width: 340px;
+                justify-content: center;
+                margin-top: 30px;
+                box-shadow:  4px 4px 4px 5px black;
+            }
+
         }
-        
-        .imagenResultados img{
-            display: flex;
-            width: 340px;
-            justify-content: center;
-            margin-top: 30px;
-            box-shadow:  4px 4px 4px 5px black;
-        }
-        .imagenBackboard img{
-            width: 600px;
-            object-fit: contain;
-        }
-    
-        .sectionSubtitulo h2{
-            justify-content: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        .sectionSubtitulo p{
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
-        }
-        .sectionHighlights h2{
-            display: flex;
-            width: 30px;
-            margin-bottom: 40px;
+        .imagenBackboard{
+            img{
+                width: 600px;
+                object-fit: contain;
+            }
+
         }
     
-        .Highlights h3 iframe{
-            height: 150px;
-            width: 300px;
-            margin-top: 20px;
-            margin-bottom: 20px;;
+        .sectionSubtitulo{
+            h2{
+                justify-content: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+
         }
+        .sectionHighlights{
+            h2{
+                display: flex;
+                width: 30px;
+                margin-bottom: 40px;
+            }
+
+        } 
+    
         .Highlights{
             display: flex;
             flex-direction: column;
+            iframe{
+                height: 150px;
+                width: 300px;
+                margin-top: 20px;
+                margin-bottom: 20px;;
+            }
+
         }
-    
 
     }

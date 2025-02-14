@@ -1,0 +1,179 @@
+@media(max-width:1440px){
+    .barraBusqueda{
+        li{
+            a{
+                display: flex;
+                justify-content: center;
+                justify-content: space-around;
+                margin: 0;
+                margin-bottom: 10px;
+                padding: 10px;
+                font-size: 18px;
+                overflow: hidden;
+            }
+
+        }
+
+}
+
+    .sectionHighlights{
+        display: flex;
+        flex-direction: column;
+        h2{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+    }
+    .Highlights{
+        iframe{
+            display: flex;
+            width: 400px;
+            height: 400px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        
+    }
+
+    .barraBusquedaEquipos{
+        li {
+            a{
+                display: flex;
+                justify-content: center;
+                justify-content: space-around;
+                margin: 0;                        
+                padding: 10px;
+                font-size: 18px;
+                overflow: hidden;
+            }
+
+        }
+} 
+
+    .barraBusquedaJugadores{
+        li {
+            a{
+                display: flex;
+                justify-content: center;
+                justify-content: space-around;
+                margin: 0;                        
+                padding: 10px;
+                font-size: 18px;
+                overflow: hidden;
+            }
+
+        }
+} 
+    .buscarJugadores{
+        display: flex;
+        justify-content: start;
+        margin-left: 80px;
+    }
+
+    .jugadoresMvps{  /* + GRIDS */
+        display: grid;
+        width: 80%;
+        grid-template-columns: 50% 200px 200px ;
+        grid-template-rows: repeat(3,18.75rem);
+        grid-template-areas: 
+        
+        "jalenBrunson carta-Jugadores1 carta-Jugadores2"
+        "jalenBrunson carta-Jugadores3 carta-Jugadores4"
+        "jalen Brunson carta-Jugadores5 carta-Jugadores6"    
+        ;
+        column-gap: 200px;
+        row-gap: 100px;
+        margin-left: 30px;
+    }
+    .jalenBrunson{
+        img{
+            object-fit: contain;
+            height: 1000px;
+            width: 700px;
+        }
+
+    }
+    .barraBusquedaLigaArg{
+        li{
+            a{
+                display: flex;
+                justify-content: center;
+                justify-content: space-around;
+                margin: 0;
+                padding: 10px;
+                font-size: 18px;
+                overflow: hidden;
+                }
+            }
+}
+
+    .noticias{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barraBusquedaResultados{
+        li{
+            a{
+                display: flex;
+                justify-content: center;
+                justify-content: space-around;
+                margin: 0;
+                padding: 10px;
+                font-size: 18px;
+                overflow: hidden;
+            }
+
+        }
+
+}
+        .Calendario{
+            article{
+                margin-top: 20px;
+                margin-left: 100px;
+            }
+            input{
+                background-color:gray;
+                width: 100px;
+                height: 40px;
+            }
+            h3{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                width: 600px;
+                height: 70px;
+                background-color: rgb(30, 62, 98);
+                color: gray;
+                margin-bottom: 10px;
+                box-shadow: 4px 4px 5px black;
+            }
+
+        } 
+        .imagenResultados{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 100px;
+        }
+        
+        .imagenResultados{
+            img{
+                display: flex;
+                width: 600px;
+                justify-content: center;
+                margin-top: 30px;
+                box-shadow:  4px 4px 4px 5px black;
+            }
+        }
+        
+        .partidosDestacados{
+            display: flex;
+            flex-direction: column;
+        }
+    }
