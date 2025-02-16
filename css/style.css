@@ -16,7 +16,7 @@ nav #toggle, nav label {
 header {
   display: flex;
   object-fit: cover;
-  background-color: rgb(17, 0, 0);
+  background-color: black;
 }
 header img {
   width: 100px;
@@ -25,7 +25,7 @@ header img {
 }
 header nav {
   width: 2000px;
-  background-color: rgb(17, 0, 0);
+  background-color: black;
 }
 header nav ul li a {
   color: rgb(248, 252, 255);
@@ -46,7 +46,7 @@ footer ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 3.125rem;
+  gap: 1.25rem;
   margin-left: 20px;
 }
 footer ul li a {
@@ -675,10 +675,6 @@ body {
     font-size: 18px;
     overflow: hidden;
   }
-  .noticias {
-    display: flex;
-    flex-direction: column;
-  }
   .barraBusquedaResultados li a {
     display: flex;
     justify-content: center;
@@ -716,17 +712,44 @@ body {
     gap: 100px;
   }
   .imagenResultados img {
-    display: flex;
     width: 600px;
     justify-content: center;
     margin-top: 30px;
     box-shadow: 4px 4px 4px 5px black;
   }
-  .partidosDestacados {
-    display: flex;
-    flex-direction: column;
-  }
 }
+.partidosDestacados img {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.partidosDestacados iframe {
+  width: 1000px;
+}
+
+.equiposLigaArg img {
+  align-items: center;
+  width: 700px;
+}
+
+.noticias {
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+.noticias iframe {
+  width: 900px;
+}
+
+.imagenEquipos {
+  object-fit: cover;
+}
+.imagenEquipos img {
+  object-fit: cover;
+  width: 800px;
+}
+
 @media (max-width: 1024px) {
   .barraBusqueda li a {
     display: flex;
@@ -853,6 +876,15 @@ body {
     box-shadow: 4px 4px 4px 5px black;
   }
 }
+.equiposLigaArg {
+  margin-left: 150px;
+}
+.equiposLigaArg img {
+  align-items: center;
+  width: 700px;
+  border-radius: 100px;
+}
+
 @media (max-width: 768px) {
   header i {
     color: aliceblue;
@@ -934,6 +966,18 @@ body {
     row-gap: 100px;
     margin-left: 30px;
   }
+  .jugadoresMvps .carta-Jugadores1:hover {
+    filter: none;
+    transform: none;
+  }
+  .jugadoresMvps .carta-Jugadores3:hover {
+    filter: none;
+    transform: none;
+  }
+  .jugadoresMvps .carta-Jugadores5:hover {
+    filter: none;
+    transform: none;
+  }
   .jalenBrunson img {
     height: 1px;
     width: 1px;
@@ -1000,6 +1044,29 @@ body {
     box-shadow: 4px 4px 4px 5px black;
   }
 }
+.equiposLigaArg {
+  margin-left: 50px;
+}
+.equiposLigaArg img {
+  align-items: center;
+  width: 700px;
+  border-radius: 100px;
+}
+.equiposLigaArg img:hover {
+  filter: none;
+  transform: none;
+}
+
+.imagenEquipos:hover {
+  filter: none;
+  transform: none;
+}
+.imagenEquipos img {
+  align-items: center;
+  width: 500px;
+  border-radius: 90px;
+}
+
 @media (max-width: 425px) {
   header {
     display: flex;
@@ -1205,6 +1272,20 @@ body {
     margin-bottom: 20px;
   }
 }
+.equiposLigaArg {
+  margin-left: 50px;
+}
+.equiposLigaArg img {
+  align-items: center;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.equiposLigaArg img:hover {
+  filter: none;
+  transform: none;
+}
+
 @media (max-width: 375px) {
   header i {
     color: aliceblue;

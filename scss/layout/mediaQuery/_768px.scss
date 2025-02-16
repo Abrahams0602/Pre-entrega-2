@@ -113,6 +113,27 @@
     column-gap: 200px;
     row-gap: 100px;
     margin-left: 30px;
+
+    .carta-Jugadores1{
+        &:hover{
+            filter: none;
+            transform: none;
+        }
+    }
+    .carta-Jugadores3{
+        &:hover{
+            filter: none;
+            transform: none;
+        }
+    }    .carta-Jugadores5{
+        &:hover{
+            filter: none;
+            transform: none;
+        }
+    }
+
+
+
 }
 .jalenBrunson{
     img{
@@ -196,7 +217,37 @@
             justify-content: center;
             margin-top: 30px;
             box-shadow:  4px 4px 4px 5px black;
+
         }
     }
     
+}
+
+.equiposLigaArg{
+    margin-left: 50px;
+    img{
+        align-items: center;
+        width: 700px;
+        border-radius: 100px;
+        &:hover{
+            filter: none;
+            transform: none;
+        }
+    }
+    
+}
+
+.imagenEquipos{
+    &:hover{
+        filter: none;
+        transform: none;
+    }
+
+    img{
+        align-items: center;
+        width: 500px;
+        border-radius: 90px;
+
+    }
+
 }

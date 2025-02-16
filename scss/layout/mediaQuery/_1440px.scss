@@ -111,10 +111,7 @@
             }
 }
 
-    .noticias{
-        display: flex;
-        flex-direction: column;
-    }
+
 
     .barraBusquedaResultados{
         li{
@@ -160,20 +157,53 @@
             flex-direction: row;
             justify-content: center;
             gap: 100px;
-        }
-        
-        .imagenResultados{
+
             img{
-                display: flex;
                 width: 600px;
                 justify-content: center;
                 margin-top: 30px;
                 box-shadow:  4px 4px 4px 5px black;
             }
         }
+        }
+    
+
         
         .partidosDestacados{
-            display: flex;
-            flex-direction: column;
+            img{
+                width: 1000px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            iframe{
+                width: 1000px;
+            }
+
         }
+
+
+
+    .equiposLigaArg{
+        img{
+            align-items: center;
+            width: 700px;
+        }
+        
+    }
+    .noticias{
+        gap: 1.25rem;
+        justify-content:center;
+        align-items: center;
+        iframe{
+            width: 900px;
+        }
+    }
+
+    .imagenEquipos{
+        img{
+            object-fit: cover;
+            width: 800px;
+        }
+        object-fit: cover;
     }
