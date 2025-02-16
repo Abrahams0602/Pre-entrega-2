@@ -7,6 +7,7 @@
 
     &:hover{
         filter:drop-shadow(2px 2px 5px blue);
+        transform: scale(1.1);
     }
 }
 
@@ -25,6 +26,7 @@
 
         &:hover{
             filter:drop-shadow(2px 2px 5px blue);
+            transform: scale(1.1);
         }
     }
 
@@ -37,4 +39,19 @@
             font-size: larger;
         
 }
+}
+
+.equiposLigaArg{
+    img{
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        width: 720px;
+        height: 900px;
+        &:hover{
+            filter:drop-shadow(2px 2px 5px blue);
+            transform: scale(1.1);
+        }
+    }
+
 }

@@ -114,7 +114,8 @@
     @include cards;
     background: rgb(2,0,36);
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(132,131,157,1) 41%, rgba(250,250,252,1) 100%);    &:hover{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(132,131,157,1) 41%, rgba(250,250,252,1) 100%); 
+        &:hover{
         filter: drop-shadow(2px 2px 5px blue);
         transform: scale(1.3);
         }

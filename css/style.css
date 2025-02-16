@@ -52,8 +52,6 @@ footer ul {
 footer ul li a {
   justify-content: space-between;
   color: rgb(224, 234, 243);
-  font-size: larger;
-  list-style: circle;
 }
 
 .imagenBackboard img {
@@ -69,6 +67,7 @@ footer ul li a {
   margin-bottom: 20px;
   margin-top: 20px;
   font-family: "Passion One", serif;
+  font-size: 20px;
 }
 
 .sectionHighlights {
@@ -531,6 +530,7 @@ body {
 }
 .imagenEquipos:hover {
   filter: drop-shadow(2px 2px 5px blue);
+  transform: scale(1.1);
 }
 
 .imagenResultados {
@@ -548,12 +548,25 @@ body {
 }
 .imagenResultados img:hover {
   filter: drop-shadow(2px 2px 5px blue);
+  transform: scale(1.1);
 }
 
 .partidosDestacados img {
   display: flex;
   object-fit: contain;
   font-size: larger;
+}
+
+.equiposLigaArg img {
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  width: 720px;
+  height: 900px;
+}
+.equiposLigaArg img:hover {
+  filter: drop-shadow(2px 2px 5px blue);
+  transform: scale(1.1);
 }
 
 .partidosDestacados iframe {
