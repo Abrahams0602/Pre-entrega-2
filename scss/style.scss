@@ -1,26 +1,26 @@
 /*1° vamos a llamar a todo lo que sea carpeta utilities*/
-@import "./utilities/mixins";
+@use "./utilities/mixins" ;
 
 
 
 
 /*2° vamos a llamar a la carpeta base*/
-@import "./base/reset";
+@use "./base/reset" ;
 
-@import "./base/tipografia";
+@use "./base/tipografia";
 
-@import "./base/toggle";
+@use "./base/toggle";
 
 
 
 /*3° vamos a llamar a todo lo del layout*/
-@import "./layout/header";
+@use "./layout/header";
 
-@import "./layout/footer";
+@use "./layout/footer";
 
-@import "./layout/sections";
+@use "./layout/sections";
 
-@import "./layout/body";
+@use "./layout/body";
 
 
 
@@ -29,32 +29,32 @@
 
 /*4° vamos a llamar a los components*/
 
-@import "./components/barrasBusqueda";
+@use "./components/barrasBusqueda";
 
-@import "./components/titulos";
+@use "./components/titulos";
 
-@import "./components/buscar";
+@use "./components/buscar";
 
-@import "./components/cards";
+@use "./components/cards";
 
-@import "./components/imagenes";
+@use "./components/imagenes";
 
-@import "./components/videos";
+@use "./components/videos";
 
-@import "./components/calendario";
+@use "./components/calendario";
 
 
 
 
 /*5° vamos a llamar a todo lo que sea mediaquery*/
-@import "./layout/mediaQuery/1440px";
+@use "./layout/mediaQuery/mq-1440px";
 
-@import "./layout/mediaQuery/1024px";
+@use "./layout/mediaQuery/mq-1024px";
 
-@import "./layout/mediaQuery/768px";
+@use "./layout/mediaQuery/mq-768px";
 
-@import "./layout/mediaQuery/425px";
+@use "./layout/mediaQuery/mq-425px";
 
-@import "./layout/mediaQuery/375px";
+@use "./layout/mediaQuery/mq-375px";
 
-@import "./layout/mediaQuery/320px";
+@use "./layout/mediaQuery/mq-320px";

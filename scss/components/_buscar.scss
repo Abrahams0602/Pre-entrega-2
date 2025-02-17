@@ -1,5 +1,7 @@
+@use "../utilities/mixins";
+
 .buscarJugadores{
-    @include fecha;
+    @include mixins.fecha();
     color:gray;
     margin-left: 700px;
     margin-top: 20px;
@@ -8,7 +10,7 @@
 }
 
 .buscarEquipos{
-    @include fecha;
+    @include mixins.fecha();
     color:gray;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -17,7 +19,7 @@
 }
 
 .buscarEquiposArg{
-    @include fecha;
+    @include mixins.fecha();
     color:gray;
     justify-content: first baseline;
     margin-left: 10px;

@@ -16,7 +16,7 @@
     overflow: hidden;
 }
 
-@mixin grids(){
+@mixin grids() {
     display: grid;
     width: 80%;
     grid-template-columns: 50% 300px 300px ;

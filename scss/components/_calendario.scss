@@ -1,3 +1,4 @@
+@use "../utilities/mixins";
 .Calendario{
     article{
         margin-top: 20px;
@@ -9,7 +10,7 @@
             height: 40px;  
         }
         h3{
-            @include fecha;
+            @include mixins.fecha();
     }
     }
 }

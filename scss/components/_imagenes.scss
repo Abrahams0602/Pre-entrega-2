@@ -3,12 +3,15 @@
     flex-wrap: wrap;
     margin-bottom: 30px;
     justify-content: center;
-    list-style: none;
+    img{
+        &:hover{
+            filter:drop-shadow(2px 2px 5px blue);
+            transform: scale(1.1);
+        }
+        border-radius: none;
 
-    &:hover{
-        filter:drop-shadow(2px 2px 5px blue);
-        transform: scale(1.1);
     }
+
 }
 
 .imagenResultados{
@@ -46,7 +49,7 @@
         align-items: center;
         justify-content: center;
         object-fit: cover;
-        width: 720px;
+        width: 900px;
         height: 900px;
         &:hover{
             filter:drop-shadow(2px 2px 5px blue);

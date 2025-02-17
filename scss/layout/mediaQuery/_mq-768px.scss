@@ -228,11 +228,6 @@
     img{
         align-items: center;
         width: 700px;
-        border-radius: 100px;
-        &:hover{
-            filter: none;
-            transform: none;
-        }
     }
     
 }
@@ -245,9 +240,7 @@
 
     img{
         align-items: center;
-        width: 500px;
-        border-radius: 90px;
-
+        width: 900px;
     }
 
 }

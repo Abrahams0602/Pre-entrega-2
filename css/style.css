@@ -41,17 +41,23 @@ footer {
 footer p {
   color: rgb(255, 255, 255);
   list-style: none;
+  font-size: 20px;
 }
 footer ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   gap: 1.25rem;
   margin-left: 20px;
 }
 footer ul li a {
+  text-decoration: none;
   justify-content: space-between;
   color: rgb(224, 234, 243);
+}
+footer ul li a i {
+  margin-right: 8px;
+  font-size: 24px;
 }
 
 .imagenBackboard img {
@@ -526,9 +532,11 @@ body {
   flex-wrap: wrap;
   margin-bottom: 30px;
   justify-content: center;
-  list-style: none;
 }
-.imagenEquipos:hover {
+.imagenEquipos img {
+  border-radius: none;
+}
+.imagenEquipos img:hover {
   filter: drop-shadow(2px 2px 5px blue);
   transform: scale(1.1);
 }
@@ -561,7 +569,7 @@ body {
   align-items: center;
   justify-content: center;
   object-fit: cover;
-  width: 720px;
+  width: 900px;
   height: 900px;
 }
 .equiposLigaArg img:hover {
@@ -730,7 +738,7 @@ body {
 
 .equiposLigaArg img {
   align-items: center;
-  width: 700px;
+  width: 200px;
 }
 
 .noticias {
@@ -742,12 +750,10 @@ body {
   width: 900px;
 }
 
-.imagenEquipos {
-  object-fit: cover;
-}
 .imagenEquipos img {
   object-fit: cover;
-  width: 800px;
+  width: 1000px;
+  border-radius: 2px;
 }
 
 @media (max-width: 1024px) {
@@ -881,8 +887,7 @@ body {
 }
 .equiposLigaArg img {
   align-items: center;
-  width: 700px;
-  border-radius: 100px;
+  width: 1000px;
 }
 
 @media (max-width: 768px) {
@@ -1050,11 +1055,6 @@ body {
 .equiposLigaArg img {
   align-items: center;
   width: 700px;
-  border-radius: 100px;
-}
-.equiposLigaArg img:hover {
-  filter: none;
-  transform: none;
 }
 
 .imagenEquipos:hover {
@@ -1063,8 +1063,7 @@ body {
 }
 .imagenEquipos img {
   align-items: center;
-  width: 500px;
-  border-radius: 90px;
+  width: 900px;
 }
 
 @media (max-width: 425px) {
@@ -1272,20 +1271,6 @@ body {
     margin-bottom: 20px;
   }
 }
-.equiposLigaArg {
-  margin-left: 50px;
-}
-.equiposLigaArg img {
-  align-items: center;
-  width: 300px;
-  object-fit: cover;
-  border-radius: 100px;
-}
-.equiposLigaArg img:hover {
-  filter: none;
-  transform: none;
-}
-
 @media (max-width: 375px) {
   header i {
     color: aliceblue;

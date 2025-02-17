@@ -1,3 +1,5 @@
+@use "../utilities/mixins" as *;
+
 .imagenBackboard{
     img{
         display: flex;
@@ -60,8 +62,9 @@
     }
 }
 
+
 .jugadoresMvps{
-    @include grids;
+    @include grids();
     grid-template-areas: 
     
     "jalenBrunson carta-Jugadores1 carta-Jugadores2"
@@ -92,3 +95,4 @@
         grid-area: jalenBrunson;
     }
 }
+

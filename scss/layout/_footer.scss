@@ -4,17 +4,24 @@ footer{
     p{
         color: rgb(255, 255, 255);
         list-style: none;
+        font-size: 20px;
     }
     ul{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         gap: 1.25rem;
         margin-left: 20px;
         li{
             a{
+                text-decoration: none;
                 justify-content: space-between;
                 color: rgb(224, 234, 243);
+
+                i {
+                    margin-right: 8px;
+                    font-size: 24px; 
+                }
 
             }
 
