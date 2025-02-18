@@ -8,4 +8,5 @@
 
 ## tecnologías
 -HTML [![html](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png "html")](http:/https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png/ "html")
--CSS [![css](https://cdn-icons-png.flaticon.com/512/919/919826.png "css")](http://https://cdn-icons-png.flaticon.com/512/919/919826.png "css") [![Sass](https://sass-lang.com/assets/img/styleguide/seal-color.png "Sass")](http://https://sass-lang.com/assets/img/styleguide/seal-color.png "Sass")
+-CSS [![css](https://cdn-icons-png.flaticon.com/512/919/919826.png "css")](http://https://cdn-icons-png.flaticon.com/512/919/919826.png "css") 
+-SASS [![Sass](https://sass-lang.com/assets/img/styleguide/seal-color.png "Sass")](http://https://sass-lang.com/assets/img/styleguide/seal-color.png "Sass")
