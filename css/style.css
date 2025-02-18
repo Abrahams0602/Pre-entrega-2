@@ -36,7 +36,7 @@ header nav ul li a {
 
 footer {
   display: flex;
-  background-color: rgb(17, 0, 0);
+  background-color: black;
 }
 footer p {
   color: rgb(255, 255, 255);
@@ -1416,7 +1416,10 @@ body {
     margin-left: 0px;
   }
   .buscarJugadores input {
-    font-weight: 10px;
+    display: flex;
+    width: 90px;
+    justify-content: start;
+    margin-left: 2px;
   }
   .imagenEquipos img {
     height: 400px;

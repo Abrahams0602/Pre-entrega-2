@@ -1,7 +1,8 @@
+@use "../utilities/variables" as v;
 header{
     display: flex;
     object-fit: cover;
-    background-color: black;
+    background-color: v.$color-secundario;
     img{
         width: 100px;
         height:90px ;
@@ -9,7 +10,7 @@ header{
     }
     nav{
         width: 2000px;
-        background-color:black;
+        background-color:v.$color-secundario;
 
         ul{
             li{

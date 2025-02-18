@@ -1,6 +1,7 @@
+@use "../utilities/variables" as v;
 footer{
     display: flex;
-    background-color: rgb(17, 0, 0);
+    background-color: v.$color-secundario;
     p{
         color: rgb(255, 255, 255);
         list-style: none;
