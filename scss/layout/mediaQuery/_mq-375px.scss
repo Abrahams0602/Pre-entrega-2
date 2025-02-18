@@ -126,20 +126,47 @@
                 }
             }
         }
-    .buscarEquipos{
-        display: flex;
-        justify-content: start;
-        font-size: 10px;
-    }
+        .buscarEquiposArg{
+            display: flex;
+            justify-content: start;
+            font-size: 10px;
+            margin-left: 0px;
+        }
+
+        .buscarEquipos{
+            display: flex;
+            justify-content: start;
+            font-size: 10px;
+        }
+
+        .buscarJugadores{
+            display: flex;
+            justify-content: start;
+            font-size: 10px;
+            margin-left: 0px;
+            input{
+                font-weight: 10px;
+            }
+        }
 
     .imagenEquipos{
         img{
             height: 400px;
             width: 390px;
             object-fit: contain;
-            margin-bottom: 30px;
+            margin-bottom: 120px;
         }
 
+    }
+
+    .equiposLigaArg{
+        margin-left: 0px;
+        img{
+            object-fit: contain;
+            width: 400px;
+            height: 600px;
+            
+        }
     }
     .barraBusquedaLigaArg{
         width: 600px;
@@ -251,7 +278,8 @@
         height: 150px;
         width: 340px;
         margin-top: 20px;
-        margin-bottom: 20px;;
+        margin-bottom: 20px;
+        margin-left: 10px;
     }
 
 }

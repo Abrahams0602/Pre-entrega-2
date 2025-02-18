@@ -139,20 +139,25 @@
 }
     
 
-    .buscarEquipos input{
-        display: flex;
-        justify-content: start;
-        width: 50px;
-    }
     .buscarEquipos{
-        width: 70px;
+        input{
+            display: flex;
+            justify-content: start;
+            width: 150px;
+        }
+
     }
 
-    .imagenEquipos img{
-        height: 600px;
-        width: 350px;
-        object-fit: contain;
-        margin-bottom: 40px;
+
+    .imagenEquipos{
+        img{
+            height: 600px;
+            width: 400px;
+            object-fit: contain;
+            margin-bottom: 40px;
+            margin-left: 45px;
+        }
+
     }
 
 .barraBusquedaLigaArg{
@@ -286,9 +291,28 @@
 }
 }
 
+.partidosDestacados{
+    img{
+        width: 350px;
+        margin-left: 0px;
+    }
+    iframe{
+        width: 350px;
+        margin-left: 0px;
+    }
+}
+
 footer{
     margin-top: 200px;
     width: 600px;
+    margin-left: 0px;
+    p{
+        width: 100px;
+
+    }
+    p#elfinal{
+        width: 10px;
+    }
 }
 
 }

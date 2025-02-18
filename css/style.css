@@ -1146,11 +1146,6 @@ body {
     font-size: 10px;
     overflow: hidden;
   }
-  .buscarJugadores {
-    display: flex;
-    justify-content: start;
-    margin-left: 2px;
-  }
   .jugadoresMvps { /* + GRIDS */
     display: grid;
     width: 80%;
@@ -1170,16 +1165,28 @@ body {
     font-size: 10px;
     overflow: hidden;
   }
+  .buscarEquiposArg {
+    display: flex;
+    justify-content: start;
+    font-size: 10px;
+    margin-left: 0px;
+  }
   .buscarEquipos {
     display: flex;
     justify-content: start;
     font-size: 10px;
   }
+  .buscarJugadores {
+    display: flex;
+    justify-content: start;
+    font-size: 10px;
+    margin-left: 0px;
+  }
   .imagenEquipos img {
     height: 400px;
     width: 390px;
     object-fit: contain;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }
   .barraBusquedaLigaArg {
     width: 600px;
@@ -1195,6 +1202,7 @@ body {
     height: 150px;
     width: 450px;
     margin-top: 20px;
+    margin-bottom: 10px;
   }
   .barraBusquedaResultados {
     width: 600px;
@@ -1208,24 +1216,24 @@ body {
   }
   .Calendario article {
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
-  .Calendario input {
-    background-color: gray;
-    width: 100px;
-    height: 40px;
-  }
-  .Calendario h3 {
+  .Calendario article h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 50px;
+    width: 300px;
     height: 70px;
     background-color: rgb(30, 62, 98);
     color: gray;
     margin-bottom: 10px;
     box-shadow: 4px 4px 5px black;
+  }
+  .Calendario article input {
+    background-color: gray;
+    width: 100px;
+    height: 40px;
   }
   .imagenResultados {
     display: flex;
@@ -1269,6 +1277,22 @@ body {
     width: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .equiposLigaArg {
+    margin-left: 10px;
+  }
+  .equiposLigaArg img {
+    object-fit: contain;
+    width: 400px;
+    height: 600px;
+  }
+  .partidosDestacados img {
+    width: 400px;
+    margin-left: 10px;
+  }
+  .partidosDestacados iframe {
+    width: 400px;
+    margin-left: 10px;
   }
 }
 @media (max-width: 375px) {
@@ -1374,16 +1398,39 @@ body {
     font-size: 10px;
     overflow: hidden;
   }
+  .buscarEquiposArg {
+    display: flex;
+    justify-content: start;
+    font-size: 10px;
+    margin-left: 0px;
+  }
   .buscarEquipos {
     display: flex;
     justify-content: start;
     font-size: 10px;
   }
+  .buscarJugadores {
+    display: flex;
+    justify-content: start;
+    font-size: 10px;
+    margin-left: 0px;
+  }
+  .buscarJugadores input {
+    font-weight: 10px;
+  }
   .imagenEquipos img {
     height: 400px;
     width: 390px;
     object-fit: contain;
-    margin-bottom: 30px;
+    margin-bottom: 120px;
+  }
+  .equiposLigaArg {
+    margin-left: 0px;
+  }
+  .equiposLigaArg img {
+    object-fit: contain;
+    width: 400px;
+    height: 600px;
   }
   .barraBusquedaLigaArg {
     width: 600px;
@@ -1473,6 +1520,7 @@ body {
     width: 340px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 10px;
   }
   footer {
     margin-top: 80px;
@@ -1584,16 +1632,14 @@ body {
   .buscarEquipos input {
     display: flex;
     justify-content: start;
-    width: 50px;
-  }
-  .buscarEquipos {
-    width: 70px;
+    width: 150px;
   }
   .imagenEquipos img {
     height: 600px;
-    width: 350px;
+    width: 400px;
     object-fit: contain;
     margin-bottom: 40px;
+    margin-left: 45px;
   }
   .barraBusquedaLigaArg {
     width: 600px;
@@ -1688,9 +1734,24 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
   }
+  .partidosDestacados img {
+    width: 350px;
+    margin-left: 0px;
+  }
+  .partidosDestacados iframe {
+    width: 350px;
+    margin-left: 0px;
+  }
   footer {
     margin-top: 200px;
     width: 600px;
+    margin-left: 0px;
+  }
+  footer p {
+    width: 100px;
+  }
+  footer p#elfinal {
+    width: 10px;
   }
 }
 
