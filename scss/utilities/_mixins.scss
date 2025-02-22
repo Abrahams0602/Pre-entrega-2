@@ -1,7 +1,8 @@
 @mixin barra(){
     display: flex;
     flex-direction: row;
-    padding: 30px;
+    padding: 10px 5%;
+    min-height: 50px;
     height: 50px;
     list-style: none;
     font-family: "Passion One", serif;
@@ -9,11 +10,12 @@
 
 @mixin barraUl(){
     display: flex;
-    align-items: right;
+    align-items: flex-end;
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 @mixin grids() {

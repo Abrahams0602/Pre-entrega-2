@@ -15,7 +15,6 @@ nav #toggle, nav label {
 /*3° vamos a llamar a todo lo del layout*/
 header {
   display: flex;
-  object-fit: cover;
   background-color: black;
 }
 header img {
@@ -24,12 +23,17 @@ header img {
   object-fit: cover;
 }
 header nav {
-  width: 2000px;
+  width: 100%;
+  max-width: 2500px;
+  margin: 0;
   background-color: black;
+}
+header nav ul {
+  display: flex;
+  gap: 1.25rem;
 }
 header nav ul li a {
   color: rgb(248, 252, 255);
-  margin-left: 100px;
   justify-content: space-between;
   align-items: center;
 }
@@ -64,6 +68,7 @@ footer ul li a i {
   display: flex;
   object-fit: contain;
   width: 100%;
+  max-width: 2500px;
 }
 
 .sectionSubtitulo {
@@ -155,18 +160,20 @@ body {
 .barraBusqueda {
   display: flex;
   flex-direction: row;
-  padding: 30px;
+  padding: 10px 5%;
+  min-height: 50px;
   height: 50px;
   list-style: none;
   font-family: "Passion One", serif;
 }
 .barraBusqueda ul {
   display: flex;
-  align-items: right;
+  align-items: flex-end;
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .barraBusqueda ul li a:hover {
   background-color: gray;
@@ -175,18 +182,20 @@ body {
 .barraBusquedaEquipos {
   display: flex;
   flex-direction: row;
-  padding: 30px;
+  padding: 10px 5%;
+  min-height: 50px;
   height: 50px;
   list-style: none;
   font-family: "Passion One", serif;
 }
 .barraBusquedaEquipos ul {
   display: flex;
-  align-items: right;
+  align-items: flex-end;
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .barraBusquedaEquipos ul li a:hover {
   background-color: gray;
@@ -195,18 +204,20 @@ body {
 .barraBusquedaJugadores {
   display: flex;
   flex-direction: row;
-  padding: 30px;
+  padding: 10px 5%;
+  min-height: 50px;
   height: 50px;
   list-style: none;
   font-family: "Passion One", serif;
 }
 .barraBusquedaJugadores ul {
   display: flex;
-  align-items: right;
+  align-items: flex-end;
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .barraBusquedaJugadores ul li a:hover {
   background-color: gray;
@@ -215,18 +226,20 @@ body {
 .barraBusquedaResultados {
   display: flex;
   flex-direction: row;
-  padding: 30px;
+  padding: 10px 5%;
+  min-height: 50px;
   height: 50px;
   list-style: none;
   font-family: "Passion One", serif;
 }
 .barraBusquedaResultados ul {
   display: flex;
-  align-items: right;
+  align-items: flex-end;
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .barraBusquedaResultados ul li a:hover {
   background-color: gray;
@@ -235,18 +248,20 @@ body {
 .barraBusquedaLigaArg {
   display: flex;
   flex-direction: row;
-  padding: 30px;
+  padding: 10px 5%;
+  min-height: 50px;
   height: 50px;
   list-style: none;
   font-family: "Passion One", serif;
 }
 .barraBusquedaLigaArg ul {
   display: flex;
-  align-items: right;
+  align-items: flex-end;
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .barraBusquedaLigaArg ul li a:hover {
   background-color: gray;
@@ -930,8 +945,9 @@ body {
     flex-direction: column;
   }
   .Highlights iframe {
-    height: 200px;
-    width: 700px;
+    height: auto;
+    width: 100%;
+    max-width: 700px;
     justify-content: center;
     align-items: center;
     display: flex;
