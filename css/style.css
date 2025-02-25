@@ -18,7 +18,8 @@ header {
   background-color: black;
 }
 header img {
-  width: 100px;
+  width: 100%;
+  max-width: 2500px;
   height: 90px;
   object-fit: cover;
 }
@@ -154,6 +155,11 @@ footer ul li a i {
 
 body {
   background-color: rgb(255, 101, 0);
+}
+
+main {
+  width: 100%;
+  max-width: 2500px;
 }
 
 /*4° vamos a llamar a los components*/
@@ -316,7 +322,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 600px;
+  width: 490px;
   height: 70px;
   background-color: rgb(30, 62, 98);
   color: gray;
@@ -334,7 +340,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 600px;
+  width: 490px;
   height: 70px;
   background-color: rgb(30, 62, 98);
   color: gray;
@@ -352,7 +358,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 600px;
+  width: 490px;
   height: 70px;
   background-color: rgb(30, 62, 98);
   color: gray;
@@ -613,7 +619,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 600px;
+  width: 490px;
   height: 70px;
   background-color: rgb(30, 62, 98);
   color: gray;
